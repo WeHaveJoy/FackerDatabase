@@ -1,0 +1,9 @@
+create table person (
+            personID INT PRIMARY KEY NOT NULL,
+            firstName varchar(30) not null,
+            lastName varchar (30) not null,
+            cityName varchar (50) not null,
+            state varchar (50) not null,
+            country varchar (50) not null,
+            cellPhone integer (50) not null
+);
